@@ -1,0 +1,283 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "GlueDrop",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 2.5,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "SafeArya/Tools/GlueBotel": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -252,
+                -136
+              ],
+              "motionPath": [
+                [
+                  -256,
+                  70,
+                  -271,
+                  -28,
+                  -246,
+                  135
+                ]
+              ]
+            },
+            {
+              "frame": 1,
+              "value": [
+                -152,
+                254
+              ],
+              "motionPath": []
+            },
+            {
+              "frame": 2,
+              "value": [
+                -152,
+                254
+              ],
+              "motionPath": [
+                [
+                  -195.5,
+                  175.9,
+                  -168.5,
+                  219.5,
+                  -212.2,
+                  148.8
+                ],
+                [
+                  -271.8,
+                  60.3,
+                  -263,
+                  94.8,
+                  -298.8,
+                  -43.7
+                ]
+              ]
+            },
+            {
+              "frame": 2.5,
+              "value": [
+                -252,
+                -136
+              ],
+              "motionPath": []
+            }
+          ],
+          "angle": [
+            {
+              "frame": 0,
+              "value": -50
+            },
+            {
+              "frame": 1,
+              "value": -120
+            },
+            {
+              "frame": 2,
+              "value": -120
+            },
+            {
+              "frame": 2.5,
+              "value": -50
+            }
+          ]
+        }
+      },
+      "SafeArya/Tools/ShadowGlue": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            },
+            {
+              "frame": 2.5,
+              "value": true
+            }
+          ]
+        }
+      },
+      "SafeArya/Tools/GlueDrop": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -61.459,
+                201.243,
+                0
+              ]
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": [
+                -61.459,
+                201.243,
+                0
+              ]
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": [
+                -58.351,
+                183.634,
+                0
+              ]
+            },
+            {
+              "frame": 1.5333333333333334,
+              "value": [
+                -47.456,
+                148.59,
+                0
+              ]
+            }
+          ],
+          "scale": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0,
+                "y": 0
+              }
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0,
+                "y": 0
+              }
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0.38,
+                "y": 0.38
+              }
+            },
+            {
+              "frame": 1.5333333333333334,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0.4,
+                "y": 0.4
+              }
+            },
+            {
+              "frame": 1.6166666666666667,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0,
+                "y": 0
+              }
+            }
+          ]
+        }
+      },
+      "SafeArya/Tools/Glue": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -45.774,
+                124.126,
+                0
+              ]
+            },
+            {
+              "frame": 1.5333333333333334,
+              "value": [
+                -45.774,
+                124.126,
+                0
+              ]
+            },
+            {
+              "frame": 1.7833333333333334,
+              "value": [
+                -44.851,
+                121.356,
+                0
+              ]
+            }
+          ],
+          "scale": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0,
+                "y": 0
+              }
+            },
+            {
+              "frame": 1.5333333333333334,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0,
+                "y": 0
+              }
+            },
+            {
+              "frame": 1.7833333333333334,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0.4,
+                "y": 0.4
+              }
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "SafeArya/bg/Ribin13": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      },
+      "SafeArya/bg/Ribin1": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      },
+      "SafeArya/bg/Ribin2": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

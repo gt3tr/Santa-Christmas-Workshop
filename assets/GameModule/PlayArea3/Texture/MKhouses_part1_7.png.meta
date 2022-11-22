@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "3028bc63-987b-47e9-afed-b5b6f5ec2eb5",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 198,
+  "height": 189,
+  "platformSettings": {},
+  "subMetas": {
+    "MKhouses_part1_7": {
+      "ver": "1.0.6",
+      "uuid": "f89f4b31-cb6f-477e-9bc5-fe129be2afe6",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "3028bc63-987b-47e9-afed-b5b6f5ec2eb5",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 198,
+      "height": 189,
+      "rawWidth": 198,
+      "rawHeight": 189,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "28cb825e-b1d0-48a0-baeb-1598f8c2dd6a",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 194,
+  "height": 209,
+  "platformSettings": {},
+  "subMetas": {
+    "pinguin_animalsMK_part3_20": {
+      "ver": "1.0.6",
+      "uuid": "15470fa6-6a21-4487-9887-9bb88f23a993",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "28cb825e-b1d0-48a0-baeb-1598f8c2dd6a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0.5,
+      "trimX": 2,
+      "trimY": 1,
+      "width": 190,
+      "height": 206,
+      "rawWidth": 194,
+      "rawHeight": 209,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

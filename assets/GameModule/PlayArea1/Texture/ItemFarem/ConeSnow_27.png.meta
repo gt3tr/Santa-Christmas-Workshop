@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "e56d6685-e80b-4b12-9025-324a1c7762a6",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 76,
+  "height": 90,
+  "platformSettings": {},
+  "subMetas": {
+    "ConeSnow_27": {
+      "ver": "1.0.6",
+      "uuid": "b27765c5-62f2-4daf-86da-ed568f7f2f1e",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "e56d6685-e80b-4b12-9025-324a1c7762a6",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 76,
+      "height": 90,
+      "rawWidth": 76,
+      "rawHeight": 90,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

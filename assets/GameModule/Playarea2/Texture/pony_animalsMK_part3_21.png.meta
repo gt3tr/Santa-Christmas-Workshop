@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "96bd7116-1624-489b-bdf2-13ff5377aba0",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 211,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "pony_animalsMK_part3_21": {
+      "ver": "1.0.6",
+      "uuid": "50943a75-ed70-45b9-b0f6-f4dab3300f41",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "96bd7116-1624-489b-bdf2-13ff5377aba0",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -0.5,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 207,
+      "height": 247,
+      "rawWidth": 211,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

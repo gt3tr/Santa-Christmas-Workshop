@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "7ccfc6b9-5de2-440b-93fe-c072e94dd61a",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 190,
+  "height": 232,
+  "platformSettings": {},
+  "subMetas": {
+    "olen_animalsMK_part3_14": {
+      "ver": "1.0.6",
+      "uuid": "63edb124-e546-4104-961a-088c616561af",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "7ccfc6b9-5de2-440b-93fe-c072e94dd61a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 187,
+      "height": 228,
+      "rawWidth": 190,
+      "rawHeight": 232,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
