@@ -1,0 +1,998 @@
+
+OthersFamily.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Dji_korobka_1
+  rotate: false
+  xy: 789, 1862
+  size: 263, 87
+  orig: 263, 87
+  offset: 0, 0
+  index: -1
+Dji_korobka_2
+  rotate: false
+  xy: 968, 1650
+  size: 246, 195
+  orig: 246, 195
+  offset: 0, 0
+  index: -1
+Dji_korobka_3
+  rotate: false
+  xy: 114, 1898
+  size: 245, 51
+  orig: 245, 51
+  offset: 0, 0
+  index: -1
+Dji_sharf
+  rotate: false
+  xy: 549, 940
+  size: 560, 442
+  orig: 560, 442
+  offset: 0, 0
+  index: -1
+Dji_walenki_leg_L
+  rotate: false
+  xy: 266, 1481
+  size: 237, 221
+  orig: 237, 221
+  offset: 0, 0
+  index: -1
+Dji_walenki_leg_R
+  rotate: false
+  xy: 266, 1481
+  size: 237, 221
+  orig: 237, 221
+  offset: 0, 0
+  index: -1
+Dji_warejka_L
+  rotate: false
+  xy: 1447, 1605
+  size: 246, 220
+  orig: 246, 220
+  offset: 0, 0
+  index: -1
+Dji_warejka_R
+  rotate: false
+  xy: 1447, 1605
+  size: 246, 220
+  orig: 246, 220
+  offset: 0, 0
+  index: -1
+Mama_varejka_L
+  rotate: false
+  xy: 1447, 1605
+  size: 246, 220
+  orig: 246, 220
+  offset: 0, 0
+  index: -1
+Mama_varejka_R
+  rotate: false
+  xy: 1447, 1605
+  size: 246, 220
+  orig: 246, 220
+  offset: 0, 0
+  index: -1
+Empty
+  rotate: false
+  xy: 10, 1948
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+Mama_Shapka
+  rotate: false
+  xy: 1119, 593
+  size: 640, 456
+  orig: 640, 456
+  offset: 0, 0
+  index: -1
+Mama_Sharf
+  rotate: false
+  xy: 10, 1146
+  size: 529, 325
+  orig: 529, 325
+  offset: 0, 0
+  index: -1
+Mama_valenok_L
+  rotate: false
+  xy: 513, 1481
+  size: 237, 221
+  orig: 237, 221
+  offset: 0, 0
+  index: -1
+Mama_valenok_R
+  rotate: false
+  xy: 513, 1481
+  size: 237, 221
+  orig: 237, 221
+  offset: 0, 0
+  index: -1
+Nails
+  rotate: false
+  xy: 21, 1910
+  size: 83, 39
+  orig: 88, 44
+  offset: 2, 3
+  index: -1
+Papa_Shapka
+  rotate: true
+  xy: 1533, 1059
+  size: 506, 389
+  orig: 506, 390
+  offset: 0, 0
+  index: -1
+Papa_sharf
+  rotate: false
+  xy: 535, 339
+  size: 482, 591
+  orig: 482, 591
+  offset: 0, 0
+  index: -1
+Papa_valenok_L
+  rotate: false
+  xy: 760, 1419
+  size: 237, 221
+  orig: 237, 221
+  offset: 0, 0
+  index: -1
+Papa_valenok_R
+  rotate: false
+  xy: 760, 1419
+  size: 237, 221
+  orig: 237, 221
+  offset: 0, 0
+  index: -1
+Papa_varejka_L
+  rotate: false
+  xy: 1703, 1575
+  size: 246, 220
+  orig: 246, 220
+  offset: 0, 0
+  index: -1
+Papa_varejka_R
+  rotate: false
+  xy: 1703, 1575
+  size: 246, 220
+  orig: 246, 220
+  offset: 0, 0
+  index: -1
+Pepa_sharf
+  rotate: false
+  xy: 10, 563
+  size: 515, 573
+  orig: 515, 573
+  offset: 0, 0
+  index: -1
+Peppa_valenki_Leg_L
+  rotate: false
+  xy: 1007, 1392
+  size: 237, 221
+  orig: 256, 256
+  offset: 9, 18
+  index: -1
+Peppa_valenki_Leg_R
+  rotate: false
+  xy: 1007, 1392
+  size: 237, 221
+  orig: 256, 256
+  offset: 9, 18
+  index: -1
+Peppa_warejka_L
+  rotate: false
+  xy: 10, 1524
+  size: 246, 220
+  orig: 256, 256
+  offset: 5, 18
+  index: -1
+Peppa_warejka_R
+  rotate: false
+  xy: 10, 1524
+  size: 246, 220
+  orig: 256, 256
+  offset: 5, 18
+  index: -1
+Shadow
+  rotate: false
+  xy: 1062, 1855
+  size: 360, 94
+  orig: 360, 94
+  offset: 0, 0
+  index: -1
+b1
+  rotate: false
+  xy: 1224, 1623
+  size: 213, 208
+  orig: 213, 208
+  offset: 0, 0
+  index: -1
+b2
+  rotate: true
+  xy: 1432, 1841
+  size: 108, 148
+  orig: 108, 148
+  offset: 0, 0
+  index: -1
+b3
+  rotate: false
+  xy: 403, 1712
+  size: 185, 158
+  orig: 185, 158
+  offset: 0, 0
+  index: -1
+b4
+  rotate: false
+  xy: 775, 1687
+  size: 183, 165
+  orig: 183, 165
+  offset: 0, 0
+  index: -1
+b5
+  rotate: false
+  xy: 598, 1712
+  size: 167, 158
+  orig: 167, 158
+  offset: 0, 0
+  index: -1
+b6
+  rotate: true
+  xy: 1590, 1835
+  size: 114, 121
+  orig: 114, 121
+  offset: 0, 0
+  index: -1
+bilet
+  rotate: true
+  xy: 1027, 124
+  size: 459, 665
+  orig: 459, 665
+  offset: 0, 0
+  index: -1
+podushka
+  rotate: false
+  xy: 1254, 1366
+  size: 269, 229
+  orig: 269, 229
+  offset: 0, 0
+  index: -1
+rt1
+  rotate: false
+  xy: 477, 1882
+  size: 88, 67
+  orig: 88, 67
+  offset: 0, 0
+  index: -1
+rt2
+  rotate: false
+  xy: 575, 1880
+  size: 113, 69
+  orig: 114, 70
+  offset: 1, 0
+  index: -1
+rt3
+  rotate: false
+  xy: 698, 1880
+  size: 81, 69
+  orig: 82, 70
+  offset: 1, 0
+  index: -1
+rt4
+  rotate: false
+  xy: 369, 1895
+  size: 98, 54
+  orig: 99, 56
+  offset: 0, 1
+  index: -1
+sold
+  rotate: true
+  xy: 10, 1754
+  size: 131, 383
+  orig: 131, 383
+  offset: 0, 0
+  index: -1
+tongue
+  rotate: true
+  xy: 1721, 1805
+  size: 144, 157
+  orig: 144, 157
+  offset: 0, 0
+  index: -1
+
+OthersFamily2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Dji_shapka
+  rotate: false
+  xy: 10, 139
+  size: 565, 875
+  orig: 565, 875
+  offset: 0, 0
+  index: -1
+HIPPO_mama
+  rotate: false
+  xy: 10, 1024
+  size: 1251, 958
+  orig: 2048, 1024
+  offset: 394, 45
+  index: -1
+Pepa_shapka
+  rotate: false
+  xy: 585, 329
+  size: 604, 685
+  orig: 604, 685
+  offset: 0, 0
+  index: -1
+hippo_papa
+  rotate: true
+  xy: 1271, 472
+  size: 1510, 711
+  orig: 2048, 1024
+  offset: 249, 131
+  index: -1
+
+OthersFamily3.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+HippoFamily/George/Body
+  rotate: false
+  xy: 1032, 1315
+  size: 727, 722
+  orig: 727, 722
+  offset: 0, 0
+  index: -1
+HippoFamily/George/EyesClose
+  rotate: false
+  xy: 1411, 1117
+  size: 255, 188
+  orig: 255, 188
+  offset: 0, 0
+  index: -1
+HippoFamily/George/EyesOpen
+  rotate: false
+  xy: 1411, 973
+  size: 215, 134
+  orig: 246, 184
+  offset: 12, 0
+  index: -1
+HippoFamily/George/HalfCloseEyes
+  rotate: false
+  xy: 1676, 1086
+  size: 254, 151
+  orig: 254, 151
+  offset: 0, 0
+  index: -1
+HippoFamily/George/HandL
+  rotate: false
+  xy: 1769, 1647
+  size: 199, 390
+  orig: 199, 390
+  offset: 0, 0
+  index: -1
+HippoFamily/George/HandR
+  rotate: false
+  xy: 1769, 1247
+  size: 199, 390
+  orig: 199, 390
+  offset: 0, 0
+  index: -1
+HippoFamily/George/Head
+  rotate: false
+  xy: 10, 1202
+  size: 1012, 835
+  orig: 1012, 835
+  offset: 0, 0
+  index: -1
+HippoFamily/George/Leg
+  rotate: true
+  xy: 1032, 1109
+  size: 196, 369
+  orig: 196, 369
+  offset: 0, 0
+  index: -1
+HippoFamily/George/Pupil
+  rotate: true
+  xy: 1978, 2017
+  size: 20, 23
+  orig: 20, 23
+  offset: 0, 0
+  index: -1
+HippoFamily/George/Tail
+  rotate: false
+  xy: 1940, 984
+  size: 97, 253
+  orig: 97, 253
+  offset: 0, 0
+  index: -1
+
+OthersFamily4.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+HippoFamily/Hippo/Body
+  rotate: true
+  xy: 1032, 1290
+  size: 741, 743
+  orig: 741, 743
+  offset: 0, 0
+  index: -1
+HippoFamily/Hippo/Bow
+  rotate: false
+  xy: 1411, 1083
+  size: 254, 197
+  orig: 254, 197
+  offset: 0, 0
+  index: -1
+HippoFamily/Hippo/EyesClose
+  rotate: false
+  xy: 1782, 897
+  size: 210, 173
+  orig: 246, 184
+  offset: 15, 0
+  index: -1
+HippoFamily/Hippo/EyesOpen
+  rotate: false
+  xy: 10, 1052
+  size: 215, 134
+  orig: 246, 184
+  offset: 12, 0
+  index: -1
+HippoFamily/Hippo/HalfCloseEyes
+  rotate: false
+  xy: 1782, 1080
+  size: 249, 151
+  orig: 249, 151
+  offset: 0, 0
+  index: -1
+HippoFamily/Hippo/HandL
+  rotate: false
+  xy: 1785, 1641
+  size: 199, 390
+  orig: 199, 390
+  offset: 0, 0
+  index: -1
+HippoFamily/Hippo/HandR
+  rotate: false
+  xy: 1785, 1241
+  size: 199, 390
+  orig: 199, 390
+  offset: 0, 0
+  index: -1
+HippoFamily/Hippo/Head
+  rotate: false
+  xy: 10, 1196
+  size: 1012, 835
+  orig: 1012, 835
+  offset: 0, 0
+  index: -1
+HippoFamily/Hippo/Leg
+  rotate: true
+  xy: 1032, 1084
+  size: 196, 369
+  orig: 196, 369
+  offset: 0, 0
+  index: -1
+HippoFamily/Hippo/Pupil
+  rotate: true
+  xy: 1994, 2011
+  size: 20, 23
+  orig: 20, 23
+  offset: 0, 0
+  index: -1
+HippoFamily/Hippo/Tail
+  rotate: false
+  xy: 1675, 1027
+  size: 97, 253
+  orig: 97, 253
+  offset: 0, 0
+  index: -1
+
+OthersFamily5.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+HippoFamily/HippoGrandma/Body
+  rotate: false
+  xy: 1020, 1305
+  size: 807, 726
+  orig: 807, 726
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandma/EyesClose
+  rotate: true
+  xy: 1823, 985
+  size: 256, 199
+  orig: 256, 199
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandma/EyesOpen
+  rotate: false
+  xy: 1706, 828
+  size: 223, 147
+  orig: 223, 147
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandma/Glasses
+  rotate: false
+  xy: 1614, 866
+  size: 82, 229
+  orig: 82, 229
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandma/HClothes
+  rotate: true
+  xy: 1020, 984
+  size: 311, 318
+  orig: 311, 318
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandma/HalfCloseEyes
+  rotate: false
+  xy: 1348, 935
+  size: 256, 160
+  orig: 256, 160
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandma/HandL
+  rotate: false
+  xy: 1837, 1646
+  size: 194, 385
+  orig: 194, 385
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandma/HandR
+  rotate: false
+  xy: 1837, 1251
+  size: 194, 385
+  orig: 194, 385
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandma/Head
+  rotate: false
+  xy: 10, 1203
+  size: 1000, 828
+  orig: 1000, 828
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandma/Leg
+  rotate: true
+  xy: 1348, 1105
+  size: 190, 363
+  orig: 190, 363
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandma/Pupil
+  rotate: true
+  xy: 1706, 1017
+  size: 20, 23
+  orig: 20, 23
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandma/Tail
+  rotate: false
+  xy: 1721, 1047
+  size: 92, 248
+  orig: 92, 248
+  offset: 0, 0
+  index: -1
+
+OthersFamily6.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+HippoFamily/HippoGrandpa/Beard
+  rotate: true
+  xy: 1751, 879
+  size: 176, 180
+  orig: 176, 180
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandpa/Body
+  rotate: false
+  xy: 1020, 1281
+  size: 722, 718
+  orig: 722, 718
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandpa/Eyebrow
+  rotate: false
+  xy: 1734, 760
+  size: 117, 109
+  orig: 117, 109
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandpa/EyesClose
+  rotate: false
+  xy: 1393, 1099
+  size: 246, 172
+  orig: 246, 172
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandpa/EyesOpen
+  rotate: true
+  xy: 1617, 790
+  size: 223, 107
+  orig: 223, 107
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandpa/HalfCloseEyes
+  rotate: false
+  xy: 1751, 1065
+  size: 248, 144
+  orig: 248, 144
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandpa/HandL
+  rotate: false
+  xy: 1752, 1614
+  size: 194, 385
+  orig: 194, 385
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandpa/HandR
+  rotate: false
+  xy: 1752, 1219
+  size: 194, 385
+  orig: 194, 385
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandpa/Head
+  rotate: false
+  xy: 10, 1171
+  size: 1000, 828
+  orig: 1046, 828
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandpa/Leg
+  rotate: true
+  xy: 1020, 1081
+  size: 190, 363
+  orig: 190, 363
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandpa/Mustache
+  rotate: false
+  xy: 1393, 914
+  size: 214, 175
+  orig: 214, 175
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandpa/Pupil
+  rotate: true
+  xy: 1956, 1979
+  size: 20, 23
+  orig: 20, 23
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoGrandpa/Tail
+  rotate: false
+  xy: 1649, 1023
+  size: 92, 248
+  orig: 92, 248
+  offset: 0, 0
+  index: -1
+
+OthersFamily7.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+HippoFamily/HippoMama/Body
+  rotate: false
+  xy: 275, 1103
+  size: 743, 726
+  orig: 743, 726
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoMama/EyesClose
+  rotate: false
+  xy: 10, 1724
+  size: 255, 203
+  orig: 256, 204
+  offset: 1, 0
+  index: -1
+HippoFamily/HippoMama/EyesOpen
+  rotate: false
+  xy: 301, 1895
+  size: 216, 134
+  orig: 216, 134
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoMama/HalfCloseEyes
+  rotate: false
+  xy: 527, 1876
+  size: 255, 153
+  orig: 256, 154
+  offset: 1, 0
+  index: -1
+HippoFamily/HippoMama/HandL
+  rotate: true
+  xy: 1165, 1835
+  size: 194, 385
+  orig: 194, 385
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoMama/HandR
+  rotate: true
+  xy: 1560, 1835
+  size: 194, 385
+  orig: 194, 385
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoMama/Head
+  rotate: false
+  xy: 1028, 1001
+  size: 1001, 824
+  orig: 1001, 824
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoMama/Leg
+  rotate: true
+  xy: 792, 1839
+  size: 190, 363
+  orig: 190, 363
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoMama/Pupil
+  rotate: true
+  xy: 10, 2009
+  size: 20, 23
+  orig: 20, 23
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoMama/Tail
+  rotate: true
+  xy: 43, 1937
+  size: 92, 248
+  orig: 92, 248
+  offset: 0, 0
+  index: -1
+
+OthersFamily8.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+HippoFamily/HippoPapa/Body
+  rotate: false
+  xy: 1055, 1317
+  size: 722, 718
+  orig: 722, 718
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoPapa/EyesClose
+  rotate: false
+  xy: 1787, 1607
+  size: 246, 172
+  orig: 246, 172
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoPapa/EyesOpen
+  rotate: false
+  xy: 1787, 1490
+  size: 222, 107
+  orig: 222, 107
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoPapa/HalfCloseEyes
+  rotate: false
+  xy: 1787, 1891
+  size: 248, 144
+  orig: 248, 144
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoPapa/HandL
+  rotate: false
+  xy: 1787, 1095
+  size: 194, 385
+  orig: 194, 385
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoPapa/HandR
+  rotate: true
+  xy: 1055, 1113
+  size: 194, 385
+  orig: 194, 385
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoPapa/Head
+  rotate: false
+  xy: 10, 1211
+  size: 1035, 824
+  orig: 1035, 824
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoPapa/Leg
+  rotate: false
+  xy: 1450, 944
+  size: 190, 363
+  orig: 190, 363
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoPapa/Pupil
+  rotate: true
+  xy: 1991, 1460
+  size: 20, 23
+  orig: 20, 23
+  offset: 0, 0
+  index: -1
+HippoFamily/HippoPapa/Tail
+  rotate: true
+  xy: 1787, 1789
+  size: 92, 248
+  orig: 92, 248
+  offset: 0, 0
+  index: -1
+
+OthersFamily9.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+HippoFamily/Lala/Body
+  rotate: false
+  xy: 1051, 1332
+  size: 753, 693
+  orig: 753, 693
+  offset: 0, 0
+  index: -1
+HippoFamily/Lala/Cheek
+  rotate: false
+  xy: 10, 1101
+  size: 199, 81
+  orig: 199, 81
+  offset: 0, 0
+  index: -1
+HippoFamily/Lala/ChildrenNipple
+  rotate: false
+  xy: 1051, 1025
+  size: 335, 297
+  orig: 337, 299
+  offset: 1, 1
+  index: -1
+HippoFamily/Lala/EyesClose
+  rotate: true
+  xy: 1779, 953
+  size: 262, 170
+  orig: 263, 171
+  offset: 0, 0
+  index: -1
+HippoFamily/Lala/EyesOpen
+  rotate: false
+  xy: 1396, 970
+  size: 253, 142
+  orig: 253, 142
+  offset: 0, 0
+  index: -1
+HippoFamily/Lala/HalfCloseEyes
+  rotate: false
+  xy: 1771, 804
+  size: 254, 139
+  orig: 254, 140
+  offset: 0, 0
+  index: -1
+HippoFamily/Lala/HandL
+  rotate: false
+  xy: 1814, 1630
+  size: 204, 395
+  orig: 204, 395
+  offset: 0, 0
+  index: -1
+HippoFamily/Lala/HandR
+  rotate: false
+  xy: 1814, 1225
+  size: 204, 395
+  orig: 204, 395
+  offset: 0, 0
+  index: -1
+HippoFamily/Lala/Head
+  rotate: false
+  xy: 10, 1192
+  size: 1031, 833
+  orig: 1031, 833
+  offset: 0, 0
+  index: -1
+HippoFamily/Lala/Leg
+  rotate: true
+  xy: 1396, 1122
+  size: 200, 373
+  orig: 200, 373
+  offset: 0, 0
+  index: -1
+HippoFamily/Lala/Pupil
+  rotate: true
+  xy: 1779, 1302
+  size: 20, 23
+  orig: 20, 23
+  offset: 0, 0
+  index: -1
+HippoFamily/Lala/Tail
+  rotate: false
+  xy: 1659, 854
+  size: 102, 258
+  orig: 102, 258
+  offset: 0, 0
+  index: -1
+
+OthersFamily10.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Mouth/SadCloseMouthMiddle
+  rotate: true
+  xy: 450, 331
+  size: 162, 43
+  orig: 162, 43
+  offset: 0, 0
+  index: -1
+Mouth/SmileCloseMouth
+  rotate: false
+  xy: 450, 216
+  size: 43, 105
+  orig: 43, 105
+  offset: 0, 0
+  index: -1
+Mouth/SmileCloseMouthBig
+  rotate: false
+  xy: 10, 10
+  size: 236, 104
+  orig: 236, 104
+  offset: 0, 0
+  index: -1
+Mouth/SmileCloseMouthMiddle
+  rotate: false
+  xy: 256, 33
+  size: 136, 61
+  orig: 136, 61
+  offset: 0, 0
+  index: -1
+Mouth/SmileCloseMouthSmall
+  rotate: false
+  xy: 434, 101
+  size: 39, 105
+  orig: 39, 105
+  offset: 0, 0
+  index: -1
+Mouth/SmileHalfOpenMouthBig
+  rotate: true
+  xy: 303, 248
+  size: 245, 137
+  orig: 245, 137
+  offset: 0, 0
+  index: -1
+Mouth/SmileOpenMouthBig
+  rotate: false
+  xy: 10, 298
+  size: 283, 195
+  orig: 283, 195
+  offset: 0, 0
+  index: -1
+Mouth/SmileOpenMouthMiddle
+  rotate: false
+  xy: 10, 124
+  size: 268, 164
+  orig: 268, 164
+  offset: 0, 0
+  index: -1
+Mouth/SurpriseOpenMouthMiddle
+  rotate: false
+  xy: 288, 104
+  size: 136, 134
+  orig: 136, 134
+  offset: 0, 0
+  index: -1
+Mouth/SurpriseOpenMouthSmall
+  rotate: false
+  xy: 402, 56
+  size: 35, 35
+  orig: 35, 35
+  offset: 0, 0
+  index: -1

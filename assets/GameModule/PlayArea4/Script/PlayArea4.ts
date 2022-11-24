@@ -5,7 +5,9 @@
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
-import { addButtonEvent } from "../../../Script/Helper/HelperTools";
+import AudioManager from "../../../Script/Helper/AudioManager";
+import { addButtonEvent, Delay } from "../../../Script/Helper/HelperTools";
+import AdManager from "../../../Script/Promotion/AdManager";
 
 const { ccclass, property } = cc._decorator;
 
@@ -19,7 +21,9 @@ export default class PlayArea4 extends cc.Component {
 
   Count = 3;
 
-  // onLoad () {}
+  onLoad() {
+    AudioManager.getInstance();
+  }
 
   start() {
     this.PanulItem.children.forEach((element) => {
@@ -29,10 +33,14 @@ export default class PlayArea4 extends cc.Component {
     });
     this.ScrollEntry(this.PanulItem.children[0]);
   }
-  ButtonClick(event: cc.Event.EventCustom) {
+  async ButtonClick(event: cc.Event.EventCustom) {
     const node: cc.Node = event.target;
     console.log(node.name);
-
+    this.Sound("ClickBtn");
+    if (node.getChildByName("Ads")) {
+      const val = await AdManager.getInstance().requestRewardAds(node.getChildByName("Ads"));
+      if (!val) return;
+    }
     node.parent.children.forEach((element) => {
       element.getComponent(cc.Button).interactable = false;
     });
@@ -43,6 +51,7 @@ export default class PlayArea4 extends cc.Component {
         .set({ position: Pos, scale: node.scale, active: true })
         .to(0.3, { position: picPos, scale: 1 })
         .call(() => {
+          this.Sound("veshi");
           this.ScrollEntry(this.PanulItem.children[1]);
           this.ScrollExit(this.PanulItem.children[0]);
         })
@@ -58,6 +67,7 @@ export default class PlayArea4 extends cc.Component {
         .set({ position: Pos, scale: node.scale, active: true })
         .to(0.3, { position: picPos, scale: 1 })
         .call(() => {
+          this.Sound("veshi");
           this.ScrollEntry(this.PanulItem.children[3]);
           this.ScrollExit(this.PanulItem.children[2]);
         })
@@ -69,6 +79,7 @@ export default class PlayArea4 extends cc.Component {
         .set({ position: Pos, scale: node.scale, active: true })
         .to(0.3, { position: picPos, scale: 1 })
         .call(() => {
+          this.Sound("veshi");
           this.ScrollEntry(this.PanulItem.children[4]);
           this.ScrollExit(this.PanulItem.children[3]);
         })
@@ -81,6 +92,7 @@ export default class PlayArea4 extends cc.Component {
         .set({ position: Pos, scale: node.scale, active: true })
         .to(0.3, { position: picPos, scale: 1 })
         .call(() => {
+          this.Sound("Star");
           this.Count++;
           if (this.Items[this.Count]) {
             node.parent.children.forEach((element) => {
@@ -88,23 +100,24 @@ export default class PlayArea4 extends cc.Component {
             });
             this.ScrollEntry(this.PanulItem.children[4]);
           } else {
-            cc.find("Canvas/safeArea/Done").active = true;
+            cc.find("Canvas/SafeArea/Done").active = true;
           }
         })
         .start();
     }
   }
-
   GetNodePos(SetNode: cc.Node, PosNode: cc.Node) {
     SetNode.getComponent(cc.Sprite).spriteFrame = PosNode.getComponent(cc.Sprite).spriteFrame;
     let Pos = SetNode.parent.convertToNodeSpaceAR(PosNode.parent.convertToWorldSpaceAR(PosNode.position));
     return Pos;
   }
-
   ScrollEntry(Scroll: cc.Node) {
     if (Scroll) {
       cc.tween(Scroll)
-        .to(0.3, { position: cc.v3(0, 205, 0) })
+        .to(0.3, { position: cc.v3(0, 210, 0) })
+        .call(() => {
+          this.Sound("Zvyk zaleta");
+        })
         .start();
     }
   }
@@ -114,6 +127,17 @@ export default class PlayArea4 extends cc.Component {
         .to(0.3, { position: cc.v3(0, 340, 0) })
         .start();
     }
+  }
+  async ViewDoneAction(event: cc.Event.EventCustom) {
+    const node: cc.Node = event.target;
+    node.getComponent(cc.Button).interactable = false;
+    this.Sound("TestButtonClick");
+    AdManager.getInstance().requestAds();
+    await Delay(0.3);
+    cc.find("Canvas/CompletePopUp").active = true;
+  }
+  Sound(name: string) {
+    AudioManager.getInstance().play(name);
   }
   // update (dt) {}
 }

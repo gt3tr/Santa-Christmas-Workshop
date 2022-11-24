@@ -5,13 +5,7 @@
 export const GlobalData = {
   data: {
     flags: {
-      PanulSprite: [],
-      ItemName: [],
-      ToyItems: [
-        [1, 2, 3, 4, 5, 6],
-        [1, 2, 3, 4, 5, 6],
-        [1, 2, 3, 4, 5, 6],
-      ],
+      ViewName: [],
       StickerPath: [],
       PatternData: [],
       TextureData: [],

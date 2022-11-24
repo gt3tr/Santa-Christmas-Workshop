@@ -21,7 +21,7 @@ export default class RewardFailed extends cc.Component {
         cc.find('Failclose', this.safeArea).on(cc.Node.EventType.TOUCH_START, this.rewardCloseAction, this);
     }
     rewardCloseAction() {
-        AudioManager.getInstance().play('button_common');
+        AudioManager.getInstance().play('button_click');
         this.CloseRewardFailed();
     }
     OpenRewardFailed() {

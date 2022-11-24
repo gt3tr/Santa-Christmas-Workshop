@@ -1,0 +1,15 @@
+{
+  "name": "sr-yiv-template",
+  "version": "0.0.1",
+  "description": "Custom Template",
+  "author": "MTB",
+  "main": "main.js",
+  "main-menu": {},
+  "panel": {
+    "main": "panel/index.js",
+    "type": "dockable",
+    "title": "yiv",
+    "width": 400,
+    "height": 300
+  }
+}

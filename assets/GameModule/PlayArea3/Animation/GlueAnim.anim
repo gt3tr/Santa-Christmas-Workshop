@@ -1,0 +1,220 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "GlueAnim",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.75,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "SafeArea/GlueItems/GlueHint": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      },
+      "SafeArea/GlueItems/GlueTube": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            },
+            {
+              "frame": 1.75,
+              "value": true
+            }
+          ]
+        }
+      },
+      "SafeArea/GlueItems/GlueBotel": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -304.6,
+                39.8
+              ],
+              "motionPath": [
+                [
+                  -241.9,
+                  134.6,
+                  -281.4,
+                  94.1,
+                  -196.1,
+                  181.5
+                ]
+              ]
+            },
+            {
+              "frame": 0.5,
+              "value": [
+                -133.2,
+                215.5
+              ],
+              "motionPath": []
+            },
+            {
+              "frame": 1.25,
+              "value": [
+                -133.2,
+                215.5
+              ]
+            },
+            {
+              "frame": 1.75,
+              "value": [
+                -304.6,
+                39.8
+              ]
+            }
+          ],
+          "angle": [
+            {
+              "frame": 0,
+              "value": -32
+            },
+            {
+              "frame": 0.5,
+              "value": -120
+            },
+            {
+              "frame": 1.25,
+              "value": -120
+            },
+            {
+              "frame": 1.75,
+              "value": -32
+            }
+          ]
+        }
+      },
+      "SafeArea/GlueItems/Drop": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -57.123,
+                170.286,
+                0
+              ]
+            },
+            {
+              "frame": 0.5,
+              "value": [
+                -57.123,
+                170.286,
+                0
+              ]
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": [
+                -56.119,
+                152.217,
+                0
+              ]
+            },
+            {
+              "frame": 1,
+              "value": [
+                -49.594,
+                113.068,
+                0
+              ]
+            },
+            {
+              "frame": 1.25,
+              "value": [
+                -49.594,
+                83.957,
+                0
+              ]
+            }
+          ],
+          "scale": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0,
+                "y": 0
+              }
+            },
+            {
+              "frame": 0.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0,
+                "y": 0
+              }
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1,
+                "y": 1
+              }
+            },
+            {
+              "frame": 1,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1,
+                "y": 1
+              }
+            },
+            {
+              "frame": 1.25,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0,
+                "y": 0
+              }
+            }
+          ]
+        }
+      },
+      "SafeArea/GlueItems/Glue": {
+        "props": {
+          "scale": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0,
+                "y": 0
+              }
+            },
+            {
+              "frame": 1,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0,
+                "y": 0
+              }
+            },
+            {
+              "frame": 1.25,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1,
+                "y": 1
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

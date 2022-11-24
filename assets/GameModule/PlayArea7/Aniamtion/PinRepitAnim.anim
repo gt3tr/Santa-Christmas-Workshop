@@ -1,0 +1,151 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "PinRepitAnim",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 2,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "props": {
+      "angle": [
+        {
+          "frame": 0,
+          "value": -37.174,
+          "curve": "cubicInOut"
+        },
+        {
+          "frame": 1,
+          "value": 28,
+          "curve": "cubicInOut"
+        },
+        {
+          "frame": 2,
+          "value": -37.174
+        }
+      ]
+    },
+    "paths": {
+      "2": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                19.973,
+                -25.282,
+                0
+              ]
+            },
+            {
+              "frame": 1,
+              "value": [
+                6.882,
+                -37.173,
+                0
+              ]
+            },
+            {
+              "frame": 2,
+              "value": [
+                19.973,
+                -25.282,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "3": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                47.895,
+                -51.405,
+                0
+              ]
+            },
+            {
+              "frame": 1,
+              "value": [
+                28.123,
+                -68.384,
+                0
+              ]
+            },
+            {
+              "frame": 2,
+              "value": [
+                47.895,
+                -51.405,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "4": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                72.571,
+                -77.712,
+                0
+              ]
+            },
+            {
+              "frame": 1,
+              "value": [
+                54.518,
+                -95.909,
+                0
+              ]
+            },
+            {
+              "frame": 2,
+              "value": [
+                72.571,
+                -77.712,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "5": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                81.572,
+                -116.995,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "6": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                97.869,
+                -157.496,
+                0
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

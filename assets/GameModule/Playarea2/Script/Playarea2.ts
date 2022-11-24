@@ -5,12 +5,14 @@
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
-import { addButtonEvent } from "../../../Script/Helper/HelperTools";
+import AudioManager from "../../../Script/Helper/AudioManager";
+import { addButtonEvent, Delay } from "../../../Script/Helper/HelperTools";
+import AdManager from "../../../Script/Promotion/AdManager";
 
 const { ccclass, property } = cc._decorator;
 
 @ccclass
-export default class Playarea2 extends cc.Component {
+export default class PlayArea2 extends cc.Component {
   @property(cc.Node)
   Panel: cc.Node = null;
 
@@ -19,21 +21,27 @@ export default class Playarea2 extends cc.Component {
 
   SelectItem: cc.Node = null;
 
-  onLoad() {}
+  onLoad() {
+    AudioManager.getInstance();
+  }
 
   start() {
     this.Panel.children.forEach((element) => {
       cc.find("view/" + element.name, element).children.forEach((Btn) => {
-        addButtonEvent(Btn, this.node, "Playarea2", "ButtonClick", false, NaN);
+        addButtonEvent(Btn, this.node, "PlayArea2", "ButtonClick", false, NaN);
       });
     });
     this.ScrollEntry(this.Panel.children[0]);
   }
 
-  ButtonClick(event: cc.Event.EventCustom) {
+  async ButtonClick(event: cc.Event.EventCustom) {
     const node: cc.Node = event.target;
     console.log("click");
-
+    this.Sound("ClickBtn");
+    if (node.getChildByName("Ads")) {
+      const val = await AdManager.getInstance().requestRewardAds(node.getChildByName("Ads"));
+      if (!val) return;
+    }
     node.parent.children.forEach((element) => {
       element.getComponent(cc.Button).interactable = false;
     });
@@ -47,6 +55,7 @@ export default class Playarea2 extends cc.Component {
         .set({ position: Pos, scale: node.scale, active: true })
         .to(0.3, { position: picPos, scale: 1 })
         .call(() => {
+          this.Sound("veshi");
           this.ScrollExit(this.Panel.children[0]);
           this.ScrollEntry(this.Panel.children[1]);
         })
@@ -56,9 +65,10 @@ export default class Playarea2 extends cc.Component {
       let Pos = this.GetNodePos(Items, node);
       let picPos = Items.position;
       cc.tween(Items)
-        .set({ position: Pos, scale: node.scale, active: true })
-        .to(0.3, { position: picPos, scale: 1 })
+        .set({ position: Pos, active: true })
+        .to(0.3, { position: picPos })
         .call(() => {
+          this.Sound("veshi");
           this.ScrollExit(this.Panel.children[1]);
           this.ScrollEntry(this.Panel.children[2]);
         })
@@ -71,6 +81,7 @@ export default class Playarea2 extends cc.Component {
         .set({ position: Pos, scale: node.scale, active: true })
         .to(0.3, { position: picPos, scale: 1 })
         .call(() => {
+          this.Sound("veshi");
           this.ScrollExit(this.Panel.children[2]);
           this.ScrollEntry(this.Panel.children[3]);
         })
@@ -83,6 +94,7 @@ export default class Playarea2 extends cc.Component {
         .set({ position: Pos, scale: node.scale, active: true })
         .to(0.3, { position: picPos, scale: 1 })
         .call(() => {
+          this.Sound("Star");
           this.ScrollExit(this.Panel.children[3]);
           cc.find("Canvas/SafeArea/Buttons/PinItems/Pin").getComponent(cc.Button).interactable = true;
           this.HintSet(cc.find("Canvas/SafeArea/Buttons/PinItems/PinShadow"));
@@ -93,6 +105,7 @@ export default class Playarea2 extends cc.Component {
   PinButtons(event: cc.Event.EventCustom) {
     const node: cc.Node = event.target;
     node.getComponent(cc.Button).interactable = false;
+    this.Sound("ClickBtn");
     if (node.name == "Pin") {
       this.StopHintSet(cc.find("Canvas/SafeArea/Buttons/PinItems/PinShadow"));
       let t = this.node.getComponent(cc.Animation).play("PinAnimation").duration;
@@ -109,6 +122,7 @@ export default class Playarea2 extends cc.Component {
       cc.tween(node)
         .delay(t)
         .call(() => {
+          this.Sound("veshi");
           this.SelectItem.getChildByName("5").active = true;
           cc.find("Canvas/SafeArea/Buttons/13").getComponent(cc.Button).interactable = true;
           cc.find("Canvas/SafeArea/Done").active = true;
@@ -134,7 +148,10 @@ export default class Playarea2 extends cc.Component {
   ScrollEntry(Scroll: cc.Node) {
     if (Scroll) {
       cc.tween(Scroll)
-        .to(0.3, { position: cc.v3(0, 205, 0) })
+        .to(0.3, { position: cc.v3(0, 210, 0) })
+        .call(() => {
+          this.Sound("Zvyk zaleta");
+        })
         .start();
     }
   }
@@ -144,6 +161,17 @@ export default class Playarea2 extends cc.Component {
         .to(0.3, { position: cc.v3(0, 340, 0) })
         .start();
     }
+  }
+  async ViewDoneAction(event: cc.Event.EventCustom) {
+    const node: cc.Node = event.target;
+    node.getComponent(cc.Button).interactable = false;
+    this.Sound("TestButtonClick");
+    AdManager.getInstance().requestAds();
+    await Delay(0.3);
+    cc.find("Canvas/CompletePopUp").active = true;
+  }
+  Sound(name: string) {
+    AudioManager.getInstance().play(name);
   }
   // update (dt) {}
 }

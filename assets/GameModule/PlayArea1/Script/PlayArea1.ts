@@ -5,7 +5,10 @@
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
+import AudioManager from "../../../Script/Helper/AudioManager";
+import { Delay } from "../../../Script/Helper/HelperTools";
 import PixelIntersect from "../../../Script/Helper/PixelIntersect";
+import AdManager from "../../../Script/Promotion/AdManager";
 
 const { ccclass, property } = cc._decorator;
 
@@ -44,7 +47,7 @@ export default class PlayArea1 extends cc.Component {
       this.IsConfirm[2] = false;
       this.IsConfirm[3] = false;
       this.IsConfirm[4] = false;
-
+      AudioManager.getInstance().play("ClickBtn");
       cc.Tween.stopAllByTarget(this.Tools[4]);
       this.Tools[4].scale = 0.3;
       this.StopHintSet(this.Hint.children[5]);
@@ -65,6 +68,7 @@ export default class PlayArea1 extends cc.Component {
       cc.tween(this.Tools[0])
         .delay(t)
         .call(() => {
+          AudioManager.getInstance().play("veshi");
           this.IsConfirm[1] = true;
           if (this.HintOn) {
             this.HintSet(this.Hint.children[1]);
@@ -80,11 +84,13 @@ export default class PlayArea1 extends cc.Component {
           this.StopHintSet(this.Hint.children[1]);
           this.StopHintSet(this.Hint.children[2]);
           this.StopHintSet(this.Hint.children[3]);
+          AudioManager.getInstance().play("ClickBtn");
           this.IsConfirm[1] = false;
           let t = this.node.getComponent(cc.Animation).play(element.name).duration;
           cc.tween(element)
             .delay(t)
             .call(() => {
+              AudioManager.getInstance().play("veshi");
               this.IsConfirm[0] = true;
               this.IsConfirm[2] = true;
               if (this.HintOn) {
@@ -99,7 +105,9 @@ export default class PlayArea1 extends cc.Component {
       }
     } else if (this.IsConfirm[2] && this.Tools[4].getBoundingBoxToWorld().contains(touch.getLocation())) {
       this.StopHintSet(this.Hint.children[4]);
+      if (this.Tools[4].getNumberOfRunningActions() == 0) AudioManager.getInstance().play("ClickBtn");
       cc.find("Canvas/SafeArya/Tools/ShadowB").active = false;
+
       if (this.HintOn) {
         this.HintSet(this.Hint.children[5]);
         cc.tween(this.Tools[4])
@@ -121,12 +129,14 @@ export default class PlayArea1 extends cc.Component {
             this.HintOn = false;
           }
           if (this.Tools[4].getNumberOfRunningActions() == 0) {
+            AudioManager.getInstance().play("ClickBtn");
             let PickPos = this.Tools[4].position;
             let pos = this.Tools[4].parent.convertToNodeSpaceAR(element.parent.convertToWorldSpaceAR(element.position));
 
             cc.tween(this.Tools[4])
               .to(0.5, { position: pos })
               .call(() => {
+                AudioManager.getInstance().play("veshi");
                 this.SetColor = i;
                 this.IsConfirm[4] = true;
                 console.log(i);
@@ -155,17 +165,21 @@ export default class PlayArea1 extends cc.Component {
           let pos = element.convertToNodeSpaceAR(touch.getLocation());
           let isblink = element.getComponent(PixelIntersect).isIntersect(pos.x, pos.y);
           if (isblink && this.Tools[4].getNumberOfRunningActions() == 0) {
+            AudioManager.getInstance().play("ClickBtn");
             let PickPos = this.Tools[4].position;
             let pos = this.Tools[4].parent.convertToNodeSpaceAR(element.parent.convertToWorldSpaceAR(element.position));
             cc.tween(this.Tools[4])
               .to(0.5, { position: pos })
               .call(() => {
-                console.log(i, element.name, "ramu");
+                AudioManager.getInstance().play("PickItem_02");
                 this.ParticaResetSystem(element);
                 element.getComponent(cc.Sprite).spriteFrame = this.Loder.getChildByName(this.SetColor + "")
                   .getChildByName(element.name)
                   .getComponent(cc.Sprite).spriteFrame;
                 element.color = cc.Color.WHITE;
+                if (!cc.find("Canvas/SafeArya/Done").active) {
+                  cc.find("Canvas/SafeArya/Done").active = true;
+                }
               })
               .to(0.5, { position: PickPos })
               .start();
@@ -189,6 +203,14 @@ export default class PlayArea1 extends cc.Component {
     const node = cc.find("Canvas/SafeArya/chouchou");
     node.setPosition(node.parent.convertToNodeSpaceAR(PosNode.parent.convertToWorldSpaceAR(PosNode.position)));
     cc.find("Canvas/SafeArya/chouchou").getComponent(cc.ParticleSystem).resetSystem();
+  }
+  async ViewDoneAction(event: cc.Event.EventCustom) {
+    const node: cc.Node = event.target;
+    node.getComponent(cc.Button).interactable = false;
+    AudioManager.getInstance().play("ClickBtn");
+    AdManager.getInstance().requestAds();
+    await Delay(0.3);
+    cc.find("Canvas/CompletePopUp").active = true;
   }
 
   // update (dt) {}
