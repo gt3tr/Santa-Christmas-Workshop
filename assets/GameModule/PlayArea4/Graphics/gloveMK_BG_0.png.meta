@@ -10,7 +10,16 @@
   "packable": true,
   "width": 819,
   "height": 526,
-  "platformSettings": {},
+  "platformSettings": {
+    "default": {
+      "formats": [
+        {
+          "name": "jpg",
+          "quality": 80
+        }
+      ]
+    }
+  },
   "subMetas": {
     "gloveMK_BG_0": {
       "ver": "1.0.6",

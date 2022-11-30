@@ -10,7 +10,16 @@
   "packable": true,
   "width": 1024,
   "height": 576,
-  "platformSettings": {},
+  "platformSettings": {
+    "default": {
+      "formats": [
+        {
+          "name": "jpg",
+          "quality": 80
+        }
+      ]
+    }
+  },
   "subMetas": {
     "bg": {
       "ver": "1.0.6",

@@ -11,14 +11,11 @@ import { getRandomNumber } from '../Helper/CocosHelper';
 import { Delay } from '../Helper/HelperTools';
 import AdManager from './AdManager';
 
-//  - [English] http://www.cocos2d-x.org/docs/creator/manual/en/scripting/life-cycle-callbacks.html
 const { ccclass, property } = cc._decorator;
 
 @ccclass
 export default class Promotion extends cc.Component {
     static self: Promotion = null;
-    // relatedThumbNo: number = 1;
-    // LIFE-CYCLE CALLBACKS:
     start() {
         Promotion.self = this;
         let self = this;
@@ -30,7 +27,7 @@ export default class Promotion extends cc.Component {
         }
         this.node.on(
             cc.Node.EventType.TOUCH_END,
-            function (event: cc.Event.EventTouch) {
+            (event: cc.Event.EventTouch) => {
                 // @ts-ignore
                 if (YYGGames) {
                     {
@@ -44,13 +41,7 @@ export default class Promotion extends cc.Component {
                                     YYGGames.forgames[window.relatedThumbNo].id
                                 );
                         } else {
-                            if (
-                                self.node.parent &&
-                                self.node.parent.name == 'promotion'
-                                // self.node.parent.opacity == 255 &&
-                                // self.node.parent.position.x == 0 &&
-                                // self.node.parent.position.y == 0
-                            ) {
+                            if (self.node.parent && self.node.parent.name == 'promotion') {
                                 // @ts-ignore
                                 YYGGames.navigate('gameover', self.node.name);
                             } else {
@@ -79,8 +70,12 @@ export default class Promotion extends cc.Component {
             // @ts-ignore
             let link = YYGGames.forgames[window.relatedThumbNo].thumb;
             cc.assetManager.loadRemote(link, (err, tex: cc.Texture2D) => {
-                me.node.parent.opacity = 255;
-                cc.find('tex', this.node).getComponent(cc.Sprite).spriteFrame = new cc.SpriteFrame(tex);
+                if (me.node.parent) {
+                    me.node.parent.opacity = 255;
+                }
+                if (cc.find('tex', this.node)) {
+                    cc.find('tex', this.node).getComponent(cc.Sprite).spriteFrame = new cc.SpriteFrame(tex);
+                }
             });
         }
     }
